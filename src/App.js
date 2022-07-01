@@ -39,8 +39,8 @@ class App extends Component {
       <div className="app">
         <div className="card">
           <h1 className="heading">{this.state.quote}</h1>
-
-          <button className="button" onClick={this.fetchQuote}>
+          <button class="custom-btn button" onClick={this.fetchQuote}>
+            <span>Click!</span>
             <span>GIVE ME ADVICE!</span>
           </button>
         </div>
